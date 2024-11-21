@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX Inspired Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="/images/OLX_2019.svg" alt="Logo" class="navbarBrand">
+            <div class="navbarCenter">
+                <ul class="navbarNav">
+                    <li class="navItem">
+                        <a class="navLink hoverIcon" href="#"><img src="images/motor.JPG" alt="icon"></a>
+                    </li>
+                    <li class="navItem">
+                        <a class="navLink hoverIcon" href="#"><img src="images/property.JPG" alt="icon"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="inputGroup">
+                        <input type="text" class="formControl" placeholder="Search">
+                        <button class="btn" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputGroup">
+                        <select class="formControl">
+                            <option selected>Select City</option>
+                            <option>Karachi</option>
+                            <option>Lahore</option>
+                            <option>Islamabad</option>
+                            <option>Rawalpindi</option>
+                            <option>Faisalabad</option>
+                            <option>Quetta</option>
+                            <option>Peshawar</option>
+                        </select>
+                        <button class="btn" type="button">
+                            <i class="fa fa-map-marker"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <div class="row" id="productCards"></div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5>Popular Locations</h5>
+                    <ul class="listUnstyled">
+                        <li>Karachi</li>
+                        <li>Lahore</li>
+                        <li>Islamabad</li>
+                        <li>Rawalpindi</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Trending Locations</h5>
+                    <ul class="listUnstyled">
+                        <li>Faisalabad</li>
+                        <li>Quetta</li>
+                        <li>Peshawar</li>
+                        <li>Multan</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>About Us</h5>
+                    <ul class="listUnstyled">
+                        <li>About QuickSale Group</li>
+                        <li>Careers</li>
+                        <li>Contact us</li>
+                        <li>QuickSale people</li>
+                        <li>Waah jobs</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>QuickSale</h5>
+                    <ul class="listUnstyled">
+                        <li>Help</li>
+                        <li>Site map</li>
+                        <li>Legal & Privacy information</li>
+                        <li>Blog</li>
+                        <li>QuickSale Autos Sell Car</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <h5>FOLLOW US</h5>
+                    <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <div class="footerBottom">
+                        Free Classifieds in Pakistan . © 2006-2024 OLX
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
